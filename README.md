@@ -21,9 +21,9 @@
 ```css
 @import((mirror, stagger, alpha) from fscss:micros)
 ```
-Or all (*)
+Or initialize all
 ```
-@import((*) from fscss:micros)
+@import(exec(_init fscss:micros))
 ```
 
 **URL** (quotes required):
