@@ -1,5 +1,5 @@
 {
-  "name": "micros",
+  "name": "fscss:micros",
   "version": "1.0.1",
   "description": "Shared FSCSS micro-helpers. Use fscss:micros",
   "extension": "fscss",
