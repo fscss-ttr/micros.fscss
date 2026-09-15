@@ -1,0 +1,39 @@
+{
+  "name": "micros",
+  "version": "1.0.1",
+  "description": "Shared FSCSS micro-helpers. Use fscss:micros",
+  "extension": "fscss",
+  "fscss_version": "^1.2.1",
+  "engines": {
+    "fscss": ">=1.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fscss-ttr/micros.fscss"
+  },
+  "file": {
+    "usage": {
+      "directive": "micros",
+      "helpers": [
+        "mirror",
+        "scoped-reset",
+        "stagger",
+        "stagger-items",
+        "alpha"
+      ]
+    },
+    "modules": [
+      "./micros.fscss"
+    ],
+    "remote": "https://cdn.jsdelivr.net/gh/fscss-ttr/FSCSS@main/xf/styles/fscss/micros.fscss"
+  },
+  "keywords": [
+    "fscss",
+    "micros",
+    "mirror",
+    "stagger",
+    "alpha",
+    "reset"
+  ],
+  "license": "MIT"
+}
