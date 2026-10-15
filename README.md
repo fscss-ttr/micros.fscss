@@ -2,7 +2,7 @@
 
 > Shared micro-helpers for FSCSS modules — small defines everyone was rewriting by hand.
 
-**Requires FSCSS ≥ 1.2.1** (`fscss:name` registry imports).
+**Requires FSCSS ≥ 1.2.6** (`fscss:name` registry imports).
 
 | Helper | Role |
 |--------|------|
@@ -21,9 +21,9 @@
 ```css
 @import((mirror, stagger, alpha) from fscss:micros)
 ```
-Or initialize all
+Or * for everything:
 ```
-@import(exec(_init fscss:micros))
+@import((*) from fscss:micros)
 ```
 
 **URL** (quotes required):
@@ -41,7 +41,7 @@ Or initialize all
 Runtime example:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.1/runtime.min.js" async></script>
+<script src="https://cdn.jsdelivr.net/npm/fscss@1.2.6/runtime.min.js" async></script>
 ```
 
 CLI:
