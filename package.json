@@ -3,9 +3,9 @@
   "version": "1.0.1",
   "description": "Shared FSCSS micro-helpers. Use fscss:micros",
   "extension": "fscss",
-  "fscss_version": "^1.2.1",
+  "fscss_version": "^1.2.6",
   "engines": {
-    "fscss": ">=1.2.1"
+    "fscss": ">=1.2.6"
   },
   "repository": {
     "type": "git",
