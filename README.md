@@ -165,7 +165,7 @@ Helpers listed for tooling:
 `mirror` · `scoped-reset` · `stagger` · `stagger-items` · `alpha`
 
 ```json
-"fscss_version": "^1.2.1"
+"fscss_version": "^1.2.6"
 ```
 
 ---
