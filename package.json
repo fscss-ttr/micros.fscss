@@ -22,10 +22,7 @@
         "alpha"
       ]
     },
-    "modules": [
-      "./micros.fscss"
-    ],
-    "remote": "https://cdn.jsdelivr.net/gh/fscss-ttr/FSCSS@main/xf/styles/fscss/micros.fscss"
+    "remote": "fscss:micros.fscss"
   },
   "keywords": [
     "fscss",
