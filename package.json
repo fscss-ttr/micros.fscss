@@ -1,9 +1,9 @@
 {
   "name": "fscss:micros",
   "version": "1.0.1",
-  "description": "Shared FSCSS micro-helpers. Use fscss:micros",
+  "description": "Shared FSCSS micro-helpers — mirror, scoped-reset, stagger, stagger-items, alpha. Import as fscss:micros",
   "extension": "fscss",
-  "fscss_version": "^1.2.6",
+  "fscss_version": ">=1.2.6",
   "engines": {
     "fscss": ">=1.2.6"
   },
@@ -11,18 +11,29 @@
     "type": "git",
     "url": "https://github.com/fscss-ttr/micros.fscss"
   },
+  "bugs": {
+    "url": "https://github.com/fscss-ttr/micros.fscss/issues"
+  },
   "file": {
     "usage": {
-      "directive": "micros",
+      "directive": "",
       "helpers": [
-        "mirror",
-        "scoped-reset",
-        "stagger",
-        "stagger-items",
-        "alpha"
+        "mirror(data, idx)",
+        "scoped-reset(st)",
+        "stagger(idx, step:0.2)",
+        "stagger-items(sel:.item-, idxArr, step:0.2)",
+        "alpha(color, amt:35%)"
       ]
     },
-    "remote": "fscss:micros.fscss"
+    "modules": ["./fscss:micros.fscss"],
+    "remote": "./fscss:micros.fscss"
+  },
+  "xfcmd": {
+    "enable": "./xfcmds/enable.xfcmd",
+    "disable": "./xfcmds/disable.xfcmd"
+  },
+  "author": {
+    "name": "fscss-ttr"
   },
   "keywords": [
     "fscss",
@@ -30,7 +41,8 @@
     "mirror",
     "stagger",
     "alpha",
-    "reset"
+    "reset",
+    "helpers"
   ],
   "license": "MIT"
 }
