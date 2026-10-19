@@ -167,6 +167,18 @@ Helpers listed for tooling:
 ```json
 "fscss_version": "^1.2.6"
 ```
+---
+
+## FSCSS IDE
+
+```xfcmd 
+libck fscss:micros
+yes
+
+```
+Adds helper snippets and a micros-demo/ (mirror + stagger + alpha).
+liboff micros removes snippets; demo files stay.
+Requires the IDE compiler ≥ 1.2.6
 
 ---
 
